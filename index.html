@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KeyForge — механические клавиатуры</title>
+    <meta name="description"
+        content="KeyForge: механические клавиатуры для работы и игр. Каталог, характеристики, оформление заявки.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+    <header class="site-header" id="top">
+        <div class="site-header__inner">
+            <a class="site-header__logo" href="index.html">KeyForge</a>
+            <nav class="site-nav" aria-label="Основное меню">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="index.html"
+                            aria-current="page">Главная</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page" id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__content">
+                <h1 class="hero__title" id="hero-title">Механические клавиатуры для работы и игр</h1>
+                <p class="hero__text">Собираем и продаём клавиатуры с заменяемыми переключателями, алюминиевыми
+                    корпусами и гарантией 12 месяцев.</p>
+                <div class="hero__actions">
+                    <a class="button" href="catalog.html">Перейти в каталог</a>
+                    <a class="button button--light" href="order.html">Оставить заявку</a>
+                </div>
+            </div>
+            <picture>
+                <source media="(min-width: 1200px)" srcset="images/key8.jpeg">
+                <source media="(min-width: 768px)" srcset="images/key8.jpeg">
+                <img class="hero__image" src="images/key8.jpeg" alt="Механическая клавиатура KeyForge" width="640"
+                    height="360" loading="eager">
+            </picture>
+        </section>
+
+        <section class="section" id="advantages" aria-labelledby="advantages-title">
+            <h2 class="section__title" id="advantages-title">Преимущества</h2>
+            <ul class="advantages">
+                <li class="advantages__item">
+                    <h3 class="advantages__title">Hot-swap</h3>
+                    <p class="advantages__text">Переключатели меняются без пайки за пару минут.</p>
+                </li>
+                <li class="advantages__item">
+                    <h3 class="advantages__title">Гарантия 12 месяцев</h3>
+                    <p class="advantages__text">Бесплатный ремонт или замена при заводском браке.</p>
+                </li>
+                <li class="advantages__item">
+                    <h3 class="advantages__title">Быстрая доставка</h3>
+                    <p class="advantages__text">Отправляем в день заказа, доставка от 1 до 5 дней.</p>
+                </li>
+                <li class="advantages__item">
+                    <h3 class="advantages__title">Консультация</h3>
+                    <p class="advantages__text">Поможем выбрать раскладку и переключатели под задачи.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" id="popular" aria-labelledby="popular-title">
+            <h2 class="section__title" id="popular-title">Популярные товары</h2>
+            <div class="product-grid">
+                <article class="product-card product-card--hit">
+                    <span class="badge badge--hit product-card__badge">Хит</span>
+                    <img class="product-card__image" src="images/key4.jpeg"
+                        srcset="images/key4.jpeg 480w, images/key4.jpeg 640w, images/key4.jpeg 960w"
+                        sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                        alt="Клавиатура KeyForge K75 Pro" width="640" height="480" loading="lazy">
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">KeyForge K75 Pro</h3>
+                        <p class="product-card__description">Раскладка 75%, hot-swap, алюминиевый корпус, беспроводное
+                            подключение.</p>
+                        <p class="product-card__price">8 990 ₽</p>
+                        <a class="button product-card__button" href="product.html">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="product-card product-card--new">
+                    <span class="badge badge--new product-card__badge">Новинка</span>
+                    <img class="product-card__image" src="images/key2.jpeg"
+                        srcset="images/key2.jpeg 480w, images/key2.jpeg 640w, images/key2.jpeg 960w"
+                        sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                        alt="Клавиатура KeyForge K65 Mini" width="640" height="480" loading="lazy">
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">KeyForge K65 Mini</h3>
+                        <p class="product-card__description">Раскладка 65%, подключение к трём устройствам, тихие
+                            переключатели.</p>
+                        <p class="product-card__price">6 490 ₽</p>
+                        <a class="button product-card__button" href="product.html">Подробнее</a>
+                    </div>
+                </article>
+
+                <article class="product-card product-card--discount">
+                    <span class="badge badge--discount product-card__badge">Скидка</span>
+                    <img class="product-card__image" src="images/key3.jpeg" alt="Клавиатура KeyForge TKL Classic"
+                        width="640" height="480" loading="lazy">
+                    <div class="product-card__body">
+                        <h3 class="product-card__title">KeyForge TKL Classic</h3>
+                        <p class="product-card__description">Классика без цифрового блока, PBT-кейкапы, USB-C.</p>
+                        <p class="product-card__price"><s class="product-card__old-price">8 490 ₽</s> 7 290 ₽</p>
+                        <a class="button product-card__button" href="product.html">Подробнее</a>
+                    </div>
+                </article>
+            </div>
+            <p class="section__more"><a class="button button--secondary" href="catalog.html">Весь каталог</a></p>
+        </section>
+
+        <section class="section" id="reviews" aria-labelledby="reviews-title">
+            <h2 class="section__title" id="reviews-title">Отзывы покупателей</h2>
+            <div class="reviews">
+                <article class="review">
+                    <p class="review__text">Взял K75 Pro для работы: печатать приятно, батареи хватает на неделю.</p>
+                    <footer class="review__author">Алексей, программист</footer>
+                </article>
+                <article class="review">
+                    <p class="review__text">Поменял переключатели за вечер, ничего паять не пришлось. Доставили за два
+                        дня.</p>
+                    <footer class="review__author">Мария, дизайнер</footer>
+                </article>
+                <article class="review">
+                    <p class="review__text">Менеджер помог с выбором раскладки, в итоге купил TKL и доволен.</p>
+                    <footer class="review__author">Дмитрий, студент</footer>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="faq" aria-labelledby="faq-title">
+            <h2 class="section__title" id="faq-title">Частые вопросы</h2>
+            <div class="faq">
+                <details class="faq__item">
+                    <summary class="faq__question">Что такое hot-swap?</summary>
+                    <p class="faq__answer">Это возможность менять переключатели без пайки: достаточно вынуть старый и
+                        вставить новый.</p>
+                </details>
+                <details class="faq__item">
+                    <summary class="faq__question">Как оформить заказ?</summary>
+                    <p class="faq__answer">Заполните форму на странице «Заявка», менеджер свяжется с вами в течение
+                        рабочего дня.</p>
+                </details>
+                <details class="faq__item">
+                    <summary class="faq__question">Можно ли вернуть товар?</summary>
+                    <p class="faq__answer">Да, в течение 14 дней, если товар не был в использовании и сохранена
+                        упаковка.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="section" id="contacts" aria-labelledby="contacts-title">
+            <div class="callout">
+                <div class="callout__content">
+                    <h2 class="callout__title" id="contacts-title">Остались вопросы?</h2>
+                    <p class="callout__text">Позвоните нам по телефону +7 (900) 000-00-00 или оставьте заявку.</p>
+                </div>
+                <div class="callout__actions">
+                    <a class="button" href="order.html">Оставить заявку</a>
+                    <a class="button button--secondary" href="contacts.html">Все контакты</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__copy">© 2026 KeyForge. Учебный проект, КР №3.</p>
+            <ul class="site-footer__links">
+                <li><a class="site-footer__link" href="index.html#advantages">Преимущества</a></li>
+                <li><a class="site-footer__link" href="index.html#popular">Популярные товары</a></li>
+                <li><a class="site-footer__link" href="index.html#reviews">Отзывы</a></li>
+                <li><a class="site-footer__link" href="index.html#faq">FAQ</a></li>
+                <li><a class="site-footer__link" href="index.html#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <a class="to-top" href="#top">Наверх</a>
+</body>
+
+</html>
