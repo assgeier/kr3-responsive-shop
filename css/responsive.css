@@ -308,3 +308,24 @@ body {
 .skip-link:focus-visible {
     top: 16px;
 }
+
+@media (max-width: 768px) {
+    .product {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    .product__gallery {
+        max-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: var(--space-md);
+    }
+
+    .product__image {
+        max-height: 250px;
+        width: auto;
+        object-fit: contain;
+    }
+}
