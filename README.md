@@ -17,7 +17,7 @@
 GitHub Pages: https://assgeier.github.io/kr3-responsive-shop/
 
 ## Структура проекта
-
+```
 kr3-responsive-shop/
 ├── index.html
 ├── catalog.html
@@ -35,7 +35,7 @@ kr3-responsive-shop/
 │ └── accessibility-report.md
 ├── README.md
 └── .gitignore
-
+```
 ## Практическая работа №12
 
 Выполнено:
