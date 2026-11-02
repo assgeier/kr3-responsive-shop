@@ -67,32 +67,47 @@ body {
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-lg, 24px);
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg, 24px);
+  align-items: center;
 }
 
 .hero__content {
-    display: grid;
-    gap: var(--space-md, 16px);
+  display: grid;
+  gap: var(--space-md, 16px);
 }
 
 .hero__title {
-    font-size: clamp(28px, 7vw, 56px);
-    line-height: 1.1;
+  font-size: clamp(28px, 7vw, 56px);
+  line-height: 1.1;
+}
+
+/* Обертка picture должна занимать всю ширину колонки */
+.hero picture {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
 
 .hero__image {
-    width: 100%;
-    max-width: 520px;
-    margin-inline: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%; /* Картинка не вылезет за границы */
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain; /* Сохраняет пропорции, не обрезает */
 }
 
+/* Для ПК (от 900px) включаем две колонки */
 @media (min-width: 900px) {
-    .hero {
-        grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
-    }
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+  }
+  
+  .hero__image {
+    max-width: 520px; /* Ограничиваем ширину только на больших экранах */
+  }
 }
 
 .product-grid {
